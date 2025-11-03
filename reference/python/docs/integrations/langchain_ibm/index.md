@@ -31,7 +31,7 @@ title: IBM
 
     [:octicons-arrow-right-24: Reference](./WatsonxLLM.md)
 
-- :material-message-text:{ .lg .middle } __`WatsonxEmbeddings`__
+- :fontawesome-solid-layer-group:{ .lg .middle } __`WatsonxEmbeddings`__
 
     ---
 
@@ -39,7 +39,7 @@ title: IBM
 
     [:octicons-arrow-right-24: Reference](./WatsonxEmbeddings.md)
 
-- :material-message-text:{ .lg .middle } __`WatsonxRerank`__
+- :fontawesome-solid-layer-group:{ .lg .middle } __`WatsonxRerank`__
 
     ---
 
@@ -47,7 +47,7 @@ title: IBM
 
     [:octicons-arrow-right-24: Reference](./WatsonxRerank.md)
 
-- :material-message-text:{ .lg .middle } __`WatsonxToolkit`__
+- :fontawesome-solid-screwdriver-wrench:{ .lg .middle } __`WatsonxToolkit`__
 
     ---
 
@@ -55,7 +55,7 @@ title: IBM
 
     [:octicons-arrow-right-24: Reference](./WatsonxToolkit.md)
 
-- :material-message-text:{ .lg .middle } __`WatsonxSQLDatabaseToolkit`__
+- :fontawesome-solid-screwdriver-wrench:{ .lg .middle } __`WatsonxSQLDatabaseToolkit`__
 
     ---
 
