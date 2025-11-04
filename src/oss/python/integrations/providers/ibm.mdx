@@ -6,6 +6,7 @@ LangChain integrations related to IBM technologies, including the
 [IBM watsonx.ai](https://www.ibm.com/products/watsonx-ai) platform and DB2 database.
 
 ## Watsonx AI
+
 IBM® watsonx.ai™ AI studio is part of the IBM [watsonx](https://www.ibm.com/watsonx)™ AI and data platform, bringing together new generative
 AI capabilities powered by [foundation models](https://www.ibm.com/products/watsonx-ai/foundation-models) and traditional machine learning (ML)
 into a powerful studio spanning the AI lifecycle. Tune and guide models with your enterprise data to meet your needs with easy-to-use tools for
@@ -16,28 +17,6 @@ Watsonx.ai offers:
 - **Differentiated client protection:** IBM stands behind IBM-developed models and indemnifies the client against third-party IP claims.
 - **End-to-end AI governance:** Enterprises can scale and accelerate the impact of AI with trusted data across the business, using data wherever it resides.
 - **Hybrid, multi-cloud deployments:** IBM provides the flexibility to integrate and deploy your AI workloads into your hybrid-cloud stack of choice.
-
-
-### Installation and Setup
-
-Install the integration package with:
-
-<CodeGroup>
-```bash pip
-pip install -qU langchain-ibm
-```
-
-```bash uv
-uv add langchain-ibm
-```
-</CodeGroup>
-
-Get an IBM watsonx.ai api key and set it as an environment variable (`WATSONX_API_KEY`)
-```python
-import os
-
-os.environ["WATSONX_API_KEY"] = "your IBM watsonx.ai api key"
-```
 
 ### Model interfaces
 
@@ -75,21 +54,11 @@ The IBM DB2 relational database v12.1.2 and above offers the abilities of vector
 and vector search. Installation of `langchain-db2` package will give LangChain users
 the support of DB2 vector store and vector search.
 
-### Installation and Setup
 
 <Note>
 `langchain-db2` is a separate package for Vector Store feature only, and can be run without the `langchain-ibm` package.
 </Note>
 
-<CodeGroup>
-```bash pip
-pip install -U langchain-db2
-```
-
-```bash uv
-uv add langchain-db2
-```
-</CodeGroup>
 
 ### Vector stores
 

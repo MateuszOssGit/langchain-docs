@@ -79,14 +79,6 @@ To learn more about integrations in LangChain, visit the [Integrations overview]
 
     [:octicons-arrow-right-24: Reference](./langchain_ollama.md)
 
-- :material-message:{ .lg .middle } __`langchain-ibm`__
-
-    ---
-
-    Interface to IBM watsonx.ai.
-
-    [:octicons-arrow-right-24: Reference](./langchain_ibm/index.md)
-
 </div>
 
 Other providers are listed in the section navigation (left sidebar).
